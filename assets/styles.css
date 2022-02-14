@@ -195,7 +195,20 @@ header nav ul li a:not(:hover) {
 }
 /* LIFE STYLES END */
 
+/* INTERACT STYLES START */
+.me-interact {
+  background-image: url("images/header.jpg");
+  background-size: cover;
+  background-position: 30% 80%;
+  background-attachment: fixed;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0 30px 0;
+}
 
+
+/* INTERACT STYLES END */
 
 /* FOOTER STYLES START */
 footer {
