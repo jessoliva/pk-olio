@@ -23,7 +23,7 @@ The purpose of this project was to create an application for a client that a use
 
 This a description of the requirements for the application requested by the client:
 
-- AS AN employee with a busy schedule I WANT to add important events to a daily planner SO THAT I can manage my time effectively
+- AS AN employer I WANT to view a potential employee's deployed portfolio of work samples SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
 AS A user never knowing what I want to eat I WANT to be able to input certain criteria (cuisines I don't want, distances I don't want to pass) SO THAT the app can randomly select a restaurant based off that criteria
 
@@ -31,63 +31,46 @@ AS A user never knowing what I want to eat I WANT to be able to input certain cr
 
 The following criteria for the application had to be met:
 
-GIVEN I am using a daily planner to create a schedule
-- WHEN I open the planner <br />
+GIVEN I need to sample a potential employee's previous work
+- WHEN I load their portfolio <br />
   THEN the current day is displayed at the top of the calendar
 - WHEN I scroll down <br />
-  THEN I am presented with time blocks for standard business hours
-- WHEN I view the time blocks for that day <br />
-  THEN each time block is color-coded to indicate whether it is in the past, present, or future
-- WHEN I click into a time block <br />
-  THEN I can enter an event
-- WHEN I click the save button for that time block <br />
-  THEN the text for that event is saved in local storage
-- WHEN I refresh the page <br />
-  THEN the saved events persist
+  THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+- WHEN I click one of the links in the navigation <br />
+  THEN the UI scrolls to the corresponding section
+- WHEN I click on the link to the section about their work <br />
+  THEN the UI scrolls to a section with titled images of the developer's applications
+- WHEN I am presented with the developer's first application <br />
+  THEN that application's image should be larger in size than the others
+- WHEN I click on the images of the applications <br />
+  THEN I am taken to that deployed application
+- WHEN I resize the page or view the site on various screens and devices <br />
+  THEN I am presented with a responsive layout that adapts to my viewport
 
-## Application Website Link
+## Features
+- About Me + Resume
+- Projects/Assignments I've Completed 
+- Hobbies I enjoy!
+- How To Get In Touch
 
-[peque](https://jessoliva.github.io/pinky-cal/)
+## Application Website
 
-## JavaScript Code
+[Jess' Portfolio Link](https://jessoliva.github.io/pk-olio/)
 
-To build this application, I wrote code that overall does the following:
-- The initial screen displays the current time and day above the schedule, and the schedule is empty
-    - The event container for the current hour will be white
-    - The event container for past hours will be a dark, deep green
-    - The event container for future hours will be a light, pastel green
-
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/1empty.png" alt="start screen" width="75%" align="top"> 
-</p>
-
-- The user can input events into the schedule per half hour timeblocks. When the user clicks on a half hour textarea, that textarea will go into focus so the user can input text.
-    - When the user clicks on the checkmark button, that specific event for that specific timeblock will be saved onto local storage. This is to prevent the event from being removed when the page is refreshed.
- 
-
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/2start day.png" alt="question screen with wrong answer" width="75%" align="top"> 
-</p>
-
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/3adding tasks.png" alt="question screen" width="75%" align="top"> 
-</p>
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/3adding tasks2.png" alt="enter score screen" width="75%" align="top"> 
-</p>
-
-- When the user clicks the x button, the textarea field for that specific timeblock will be cleared and the saved event for that timeblock will be removed from local storage.
-
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/4delete tasks.png" alt="lose screen" width="75%" align="top"> 
-</p>
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/4deletetasks2.png" alt="enter score screen" width="75%" align="top"> 
-</p>
-<p align="left" width="100%">
-&emsp;&emsp;&emsp;<img src="assets/images/5end result.png" alt="enter score screen" width="75%" align="top"> 
-</p>
+<video src="./assets/images/portfolio.mp4" width=70%/>
 
 ## Credits
-- [Stack Overflow: CSS Transition](https://stackoverflow.com/questions/27903965/can-i-apply-a-css-transition-on-hover-out-only)
+- [W3 Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 - Badges - [Shields.io](https://shields.io/)
+
+## License
+MIT License
+
+Copyright (c) [2022] [Jess Olivares]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
