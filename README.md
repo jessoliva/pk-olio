@@ -62,7 +62,7 @@ GIVEN I need to sample a potential employee's previous work
 ## Credits
 - [W3 Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- Badges - [Shields.io](https://shields.io/)
+- [Shields.io](https://shields.io/)
 
 ## License
 MIT License
