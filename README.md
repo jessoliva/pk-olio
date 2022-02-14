@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this project was to create an application for a client that a user can use to schedule their workday by half hour increments. 
+The purpose of this project was to create portfolio that gives insight about who I am.
 
 ## Built With
 
