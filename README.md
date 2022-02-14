@@ -59,6 +59,9 @@ GIVEN I need to sample a potential employee's previous work
 
 ![Portfolio Mockup](./assets/images/portfolio.gif)
 
+## Code
+For this application, I wanted the website to seamlessly flow when increasing or decreasing the page size. For that, I added various media queries at various breakpoints. 
+
 ## Credits
 - [W3 Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
