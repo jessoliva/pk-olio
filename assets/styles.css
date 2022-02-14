@@ -303,3 +303,23 @@ footer img {
     padding: 30px 0;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  /* HEADER STYLES */
+  header {
+    height: 140px;
+    justify-content: center;
+  }
+
+  /* INTERACT STYLES */
+  .me-interact h2,
+  .fa-facebook-square {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .fa-envelope {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}
