@@ -431,5 +431,15 @@ footer img {
     padding: 30px 0 0 0;
   }
 
+  /* INTERACT STYLES */
+  .me-interact h2 {
+    font-size: 30px;
+  }
 
-}
+  .icons {
+    padding: 0 10px;
+  }
+
+  .me-interact i {
+    font-size: 35px;
+  }
