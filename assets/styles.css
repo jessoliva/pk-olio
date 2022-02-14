@@ -311,6 +311,10 @@ footer img {
     justify-content: center;
   }
 
+  header h1 {
+    margin: 0 40px;
+  }
+
   /* INTERACT STYLES */
   .me-interact h2,
   .fa-facebook-square {
