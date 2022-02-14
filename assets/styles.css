@@ -217,6 +217,17 @@ header nav ul li a:not(:hover) {
   padding: 14px 20px;
 }
 
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fa-facebook-square {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 
 /* INTERACT STYLES END */
 
