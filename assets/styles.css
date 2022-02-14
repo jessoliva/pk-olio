@@ -443,3 +443,9 @@ footer img {
   .me-interact i {
     font-size: 35px;
   }
+
+  /* FOOTER STYLES */
+  footer h2 {
+    font-size: 25px;
+  }
+}
