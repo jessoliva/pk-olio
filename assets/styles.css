@@ -131,7 +131,39 @@ header nav ul li a:not(:hover) {
 }
 /* ABOUT-ME STYLES END
 
+/* PROJECTS STYLES START */
+.sites {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
 
+.sites article {
+  padding-top: 20px;
+}
+
+.badges {
+  display: flex;
+}
+
+.runbuddy .photo:hover {
+  content: url("images/runbuddy2.jpg");
+  width: 600px;
+}
+
+.horiseon .photo:hover {
+  content: url("images/horiseon2.jpg");
+  width: 375px;
+}
+
+.robot .photo:hover {
+  content: url("images/robot2.jpg");
+  width: 333px;
+}
+/* PROJECT STYLES END */
 
 /* FOOTER STYLES START */
 footer {
