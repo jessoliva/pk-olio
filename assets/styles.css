@@ -1,0 +1,17 @@
+/* UNIVERSAL STYLES START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* UNIVERSAL STYLES END  */
+
+/* GENERAL BODY STYLES START */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #c4c0ab;
+  background-color: #192413;
+}
+/* GENERAL BODY STYLES START */
+
