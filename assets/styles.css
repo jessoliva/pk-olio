@@ -87,6 +87,39 @@ header nav ul li a:not(:hover) {
 }
 /* HEADER STYLES END */
 
+/* ABOUT-ME STYLES START */
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.description {
+  text-align: center; /* why doesn't justify content work here lol --> bc used for containers */
+  width: 500px;
+  height: 500px;
+  padding: 30px 35px;
+}
+
+.description p {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.description img {
+  float: left;
+  margin: 10px 20px 0 0;
+}
+
+.resume {
+  width: 700px;
+  padding: 30px 35px;
+}
+/* ABOUT-ME STYLES END
+
 /* FOOTER STYLES START */
 footer {
   background-image: url("images/header.jpg");
