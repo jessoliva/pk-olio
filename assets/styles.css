@@ -467,3 +467,10 @@ footer img {
     border-top-left-radius: 15px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  /* ABOUT ME STYLES */
+  .description {
+    height: 700px;
+  }
+}
