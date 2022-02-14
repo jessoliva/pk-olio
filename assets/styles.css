@@ -228,6 +228,12 @@ header nav ul li a:not(:hover) {
   border-top-right-radius: 15px;
 }
 
+.me-interact i {
+  font-size: 38px;
+  background-color: #192413;
+  padding: 19px 30px;
+}
+
 
 /* INTERACT STYLES END */
 
