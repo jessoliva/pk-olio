@@ -323,3 +323,35 @@ footer img {
     border-top-left-radius: 15px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  /* HEADER STYLES */
+  header nav ul li a {
+    font-size: 2.5vw;
+  }
+
+  /* STYLES FOR ALL SECTIONS */
+  .title {
+    width: 40%;
+  }
+
+  .photo {
+    max-width: 490px;
+  }
+
+  /* ABOUT ME STYLES */
+  .description p {
+    height: 530px;
+  }
+
+  /* INTERACT STYLES */
+  .me-interact h2 {
+    font-size: 30px;
+  }
+
+  /* INTERACT AND FOOTER STYLES */
+  .me-interact i,
+  footer h2 {
+    font-size: 35px;
+  }
+}
