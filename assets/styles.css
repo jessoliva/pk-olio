@@ -186,6 +186,13 @@ header nav ul li a:not(:hover) {
   width: 400px;
 }
 
+.wood {
+  width: 600px;
+}
+
+.wood img:hover {
+  content: url("images/wood1.jpg");
+}
 /* LIFE STYLES END */
 
 
