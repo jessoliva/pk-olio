@@ -474,3 +474,10 @@ footer img {
     height: 700px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  /* ABOUT ME STYLES */
+  .description {
+    height: 800px;
+  }
+}
