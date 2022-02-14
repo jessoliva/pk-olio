@@ -361,3 +361,34 @@ footer img {
     height: 580px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  /* HEADER STYLES */
+  header {
+    height: 165px;
+    padding: 10px 35px;
+  }
+
+  header h1 a {
+    font-size: 40px;
+  }
+
+  header nav {
+    margin: 10px;
+    justify-content: center;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  header nav ul li {
+    margin: 10px 7px;
+  }
+
+  header nav ul li a {
+    font-size: 15px;
+  }
+
+
+}
