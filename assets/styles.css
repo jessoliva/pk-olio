@@ -451,6 +451,7 @@ footer img {
 }
 
 @media screen and (max-width: 480px) {
+  /* INTERACT STYLES */
   .fa-envelope {
     margin-left: 50px;
   }
