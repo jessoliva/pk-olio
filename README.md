@@ -57,7 +57,7 @@ GIVEN I need to sample a potential employee's previous work
 
 [Jess' Portfolio Link](https://jessoliva.github.io/pk-olio/)
 
-<video src="./assets/images/portfolio.mp4" width=70%/>
+![Portfolio Mockup](./assets/images/portfolio.gif)
 
 ## Credits
 - [W3 Schools](https://www.w3schools.com/)
