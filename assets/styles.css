@@ -449,3 +449,20 @@ footer img {
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .fa-envelope {
+    margin-left: 50px;
+  }
+
+  .fa-github {
+    margin-right: 50px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .fa-instagram {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}
