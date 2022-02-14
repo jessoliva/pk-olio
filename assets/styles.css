@@ -15,3 +15,61 @@ body {
 }
 /* GENERAL BODY STYLES START */
 
+/* HEADER STYLES START */
+/* apply styles to <header> */
+header {
+  background-image: url("./images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 35px;
+  display: flex; /* default is row so no need to declare */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky; /* used to target old versions of safari and chrome, added before the next style */
+  position: sticky; /* this and top: 0 sticks header to the top and leaves it there as you scroll */
+  z-index: 99; /* to prevent video from scrolling over header */
+  top: 0;
+  height: 120px;
+}
+
+header h1 {
+  margin: 0;
+  display: inline;
+}
+
+header h1 a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #192413;
+  text-decoration: none;
+}
+
+header h1 a span {
+  color: rgba(243, 252, 241, 0.842);
+  text-shadow: 0 0 10px #192413;
+}
+
+header nav {
+  /* lines up the list to be inline with h1 */
+  margin: 18px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none; /* removes markers bc it's a list */
+}
+
+header nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  text-decoration: none;
+  background-color: #192413;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 0 7px;
+}
+/* HEADER STYLES END */
