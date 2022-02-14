@@ -425,5 +425,11 @@ footer img {
     margin: 10px;
   }
 
+  /* HOBBIES STYLES */
+  .hobbies {
+    font-size: 15px;
+    padding: 30px 0 0 0;
+  }
+
 
 }
