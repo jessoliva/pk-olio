@@ -87,6 +87,17 @@ header nav ul li a:not(:hover) {
 }
 /* HEADER STYLES END */
 
+/* STYLES FOR ME-ABOUT, RESUME, PROJECTS, LIFE, ME-INTERACT SECTIONS START */
+.title {
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  padding: 15px 0 10px 0;
+  border-bottom: 2px solid #c4c0ab;
+}
+/* STYLES FOR ME-ABOUT, RESUME, PROJECTS, LIFE, ME-INTERACT SECTIONS END */
+
 /* ABOUT-ME STYLES START */
 .content {
   width: 100%;
