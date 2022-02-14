@@ -165,6 +165,18 @@ header nav ul li a:not(:hover) {
 }
 /* PROJECT STYLES END */
 
+/* LIFE STYLES START */
+.hobbies {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+
+/* LIFE STYLES END */
+
 
 
 /* FOOTER STYLES START */
