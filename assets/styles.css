@@ -234,7 +234,19 @@ header nav ul li a:not(:hover) {
   padding: 19px 30px;
 }
 
+.me-interact i:hover,
+.me-interact h2:hover {
+  color: #192413;
+  background-color: #c4c0ab;
+  transition: all 0.6s ease-in-out;
+}
 
+.me-interact i:not(:hover),
+.me-interact h2:not(:hover) {
+  color: rgba(243, 252, 241, 0.842);
+  background-color: #192413;
+  transition: all 0.6s ease-in-out;
+}
 /* INTERACT STYLES END */
 
 /* FOOTER STYLES START */
