@@ -281,3 +281,25 @@ footer img {
   filter: drop-shadow(0 0 8px rgba(236, 181, 129, 0.5));
 }
 /* FOOTER STYLES END */
+
+/* MEDIA QUERIES */
+/* If the screen size is 1115px wide or less, hide the element */
+@media only screen and (max-width: 1250px) {
+  /* ABOUT-ME STYLES */
+  .content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .description {
+    width: 600px;
+    height: 530px;
+    padding-bottom: 0;
+  }
+
+  /* PROJECT AND HOBBIES STYLES */
+  .sites,
+  .hobbies {
+    padding: 30px 0;
+  }
+}
