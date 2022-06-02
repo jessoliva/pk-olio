@@ -165,10 +165,10 @@ header nav ul li a:not(:hover) {
   width: 375px;
 }
 
-.robot .photo:hover {
+/* .robot .photo:hover {
   content: url("images/robot2.jpg");
   width: 333px;
-}
+} */
 /* PROJECT STYLES END */
 
 /* LIFE STYLES START */
