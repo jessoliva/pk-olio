@@ -27,7 +27,7 @@ header {
   background-image: url("./images/header.jpg");
   background-size: cover;
   background-position: center;
-  padding: 20px 35px;
+  padding: 20px 35px 0 35px;
   display: flex; /* default is row so no need to declare */
   justify-content: space-between;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ header {
   position: sticky; /* this and top: 0 sticks header to the top and leaves it there as you scroll */
   z-index: 99; /* to prevent video from scrolling over header */
   top: 0;
-  height: 120px;
+  height: 100px;
 }
 
 header h1 {
@@ -138,6 +138,10 @@ header nav ul li a:not(:hover) {
 /* ABOUT-ME STYLES END
 
 /* PROJECTS STYLES START */
+.project-title {
+  color: #c4c0ab;
+}
+
 .sites {
   font-size: 15px;
   width: 100%;
@@ -271,7 +275,7 @@ footer h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 35px;
-  color: rgba(243, 252, 241, 0.842);
+  color: #f3fcf1d7;
   text-align: center;
   text-shadow: 0 0 8px #192413;
   padding: 10px 0 20px 0;
@@ -287,6 +291,36 @@ footer img {
   filter: drop-shadow(0 0 8px rgba(236, 181, 129, 0.5));
 }
 /* FOOTER STYLES END */
+
+/* ANIMATIONS */
+.animate
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f3fcf1d7 0%,
+    #7fb596 29%,
+    #5a875a 67%,
+    #5dab81 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/*  */
 
 /* MEDIA QUERIES */
 /* If the screen size is 1115px wide or less, hide the element */
